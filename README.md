@@ -8,7 +8,7 @@ RocThis is a Chrome plugin that essentialy adds a browser (Google Chrome) extens
 3. The submit button needs to be clicked by the user after data transfer is completed.
 
 ### Prerequisites
-Latest Google Chrome browser
+Google Chrome browser
 
 ### Installation
 1. Open the Extension Management page by navigating to chrome://extensions.
