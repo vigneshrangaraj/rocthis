@@ -1,5 +1,5 @@
 # ROCTHIS
-
+## Developers: Clara Bridges, Vignesh Rangaraj
 ### Things to do
 1. The business part needs to be done.
 2. The data that needs to be pulled from ICRAS. Not all the data might be relevant. 
