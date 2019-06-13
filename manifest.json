@@ -1,0 +1,25 @@
+{
+  "name": "ICRAS-ROCIS integration",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Plugin supporting the automatic population of ROCIS ICR forms with data from ICRAS",
+  "icons": { "128": "logo.png" },
+  "background": {
+    "persistent": false,
+    "scripts": ["bg.js"]
+  },
+  "content_scripts": [{
+    "matches": ["https://training.rocis.gov/*"],
+    "js": ["code_from_rocis.js", "elements.js", "jquery-3.1.1.min.js", "rocis_ops.js", "store_ops.js", "dom_ops.js", "filler.js"]
+  }],
+  "content_security_policy":"script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": ["http://*/", "https://*/", "tabs", "storage"],
+  "browser_action": {
+    "default_title": "",
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+  "storage": {
+    "managed_schema": "schema.json"
+  }
+}
