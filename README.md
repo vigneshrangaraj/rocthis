@@ -5,7 +5,7 @@
 RocThis is a Chrome plugin that essentialy adds a browser (Google Chrome) extension that uses vanilla Javascript, CSS and HTML scripts. There is a business need to get Information Collection Request (ICR) data from ICRAS to ROCIS. 
 1. The plugin does not interact with the server side configuration/scripts that belong to ROCIS
 2. The service worker does not automatically interact with the ROCIS landscape other than visually manipulate client end scripts strictly limiting to HTML of a page. 
-3. The submit button needs to be clicked by the user after the scraping is completed.
+3. The submit button needs to be clicked by the user after data transfer is completed.
 
 ### Prerequisites
 Latest Google Chrome browser
